@@ -1,6 +1,6 @@
 {
   "name": "string-to-code-point-array",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "string-to-code-point-array\r ==========================",
   "main": "string-to-code-point-array.es6",
   "scripts": {
