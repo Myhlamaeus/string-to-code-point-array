@@ -1,0 +1,19 @@
+{
+  "name": "string-to-code-point-array",
+  "version": "0.0.0",
+  "description": "string-to-code-point-array\r ==========================",
+  "main": "string-to-code-point-array.es6",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ileri/string-to-code-point-array.git"
+  },
+  "author": "Malte-Maurice Dreyer <dreyer.maltem@gmail.com>",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/ileri/string-to-code-point-array/issues"
+  },
+  "homepage": "https://github.com/ileri/string-to-code-point-array"
+}

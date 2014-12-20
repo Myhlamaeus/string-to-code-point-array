@@ -1,0 +1,20 @@
+{
+  "name": "string-to-code-point-array",
+  "version": "0.0.0",
+  "homepage": "https://github.com/ileri/string-to-code-point-array",
+  "authors": [
+    "Malte-Maurice Dreyer <dreyer.maltem@gmail.com>"
+  ],
+  "main": "string-to-code-point-array.es6",
+  "moduleType": [
+    "es6"
+  ],
+  "license": "GPL-3.0",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
