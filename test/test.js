@@ -1,4 +1,6 @@
-var traceur = require("traceur");
+"use strict";
+
+const traceur = require("traceur");
 
 traceur.require.makeDefault(function(filename) {
     // don't transpile our dependencies, just our app

@@ -1,3 +1,5 @@
+"use strict";
+
 import stringToCodePointArray from "../string-to-code-point-array.es6";
 
 const assert = require("assert"),
@@ -24,17 +26,21 @@ for(let i = 0; i < 2; ++i) {
 }
 
 for(let key in codePointArrays) {
-    let arr = codePointArrays[key];
+    if(codePointArrays.hasOwnProperty(key)) {
+        let arr = codePointArrays[key];
 
-    tests[key] = [arr.map((code) => String.fromCodePoint(code)).join(""), arr];
+        tests[key] = [arr.map((code) => String.fromCodePoint(code)).join(""), arr];
+    }
 }
 
 describe("stringToCodePointArray()", function() {
     for(let name in tests) {
-        let test = tests[name];
+        if(tests.hasOwnProperty(name)) {
+            let test = tests[name];
 
-        it(`code points: ${name}`, function() {
-            assert.deepEqual(stringToCodePointArray(test[0]), test[1]);
-        });
+            it(`code points: ${name}`, function() {
+                assert.deepEqual(stringToCodePointArray(test[0]), test[1]);
+            });
+        }
     }
 });
