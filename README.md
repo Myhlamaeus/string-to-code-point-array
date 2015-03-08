@@ -1,2 +1,1 @@
-string-to-code-point-array
-==========================
+# string-to-code-point-array [![Build Status](https://travis-ci.org/ileri/string-to-code-point-array.svg?branch=master)](https://travis-ci.org/ileri/string-to-code-point-array) [![Code Climate](https://codeclimate.com/github/ileri/string-to-code-point-array/badges/gpa.svg)](https://codeclimate.com/github/ileri/string-to-code-point-array)
