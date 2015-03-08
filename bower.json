@@ -5,7 +5,7 @@
   "authors": [
     "Malte-Maurice Dreyer <dreyer.maltem@gmail.com>"
   ],
-  "main": "string-to-code-point-array.es6",
+  "main": "string-to-code-point-array.js",
   "moduleType": [
     "es6"
   ],

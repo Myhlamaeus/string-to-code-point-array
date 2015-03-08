@@ -2,7 +2,7 @@
   "name": "string-to-code-point-array",
   "version": "0.1.0",
   "description": "string-to-code-point-array\r ==========================",
-  "main": "string-to-code-point-array.es6",
+  "main": "string-to-code-point-array.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },

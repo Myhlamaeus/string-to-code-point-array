@@ -1,6 +1,6 @@
 "use strict";
 
-import stringToCodePointArray from "../string-to-code-point-array.es6";
+import stringToCodePointArray from "../string-to-code-point-array.js";
 
 const assert = require("assert"),
     codePoints = [

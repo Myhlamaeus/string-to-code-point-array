@@ -8,5 +8,5 @@ traceur.require.makeDefault(function(filename) {
 });
 
 ["string-to-code-point-array"].map(function(file) {
-    return "./" + file + ".es6";
+    return "./" + file + ".js";
 }).forEach(require);
