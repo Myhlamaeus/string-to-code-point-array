@@ -1,7 +1,7 @@
 {
   "name": "string-to-code-point-array",
   "description": "string-to-code-point-array\r ==========================",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "author": "Malte-Maurice Dreyer <dreyer.maltem@gmail.com>",
   "bugs": {
     "url": "https://github.com/ileri/string-to-code-point-array/issues"
