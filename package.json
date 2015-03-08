@@ -1,22 +1,11 @@
 {
   "name": "string-to-code-point-array",
-  "version": "0.1.0",
   "description": "string-to-code-point-array\r ==========================",
-  "main": "dist/cjs.js",
-  "scripts": {
-    "prepublish": "grunt build:cjs",
-    "test": "grunt test"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/ileri/string-to-code-point-array.git"
-  },
+  "version": "0.1.0",
   "author": "Malte-Maurice Dreyer <dreyer.maltem@gmail.com>",
-  "license": "GPL-3.0",
   "bugs": {
     "url": "https://github.com/ileri/string-to-code-point-array/issues"
   },
-  "homepage": "https://github.com/ileri/string-to-code-point-array",
   "devDependencies": {
     "babel": "^4.7.3",
     "grunt": "^0.4.5",
@@ -30,5 +19,16 @@
     "load-grunt-tasks": "^1.0.0",
     "mocha": "^2.2.0",
     "time-grunt": "^1.0.0"
+  },
+  "homepage": "https://github.com/ileri/string-to-code-point-array",
+  "license": "GPL-3.0",
+  "main": "dist/cjs.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ileri/string-to-code-point-array.git"
+  },
+  "scripts": {
+    "prepublish": "grunt build:cjs",
+    "test": "grunt test"
   }
 }
